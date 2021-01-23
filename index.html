@@ -1,52 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-	<link rel="stylesheet" href="/style.css" />
-</head>
+  <body>
+    <header id="top">
+      <div class="container">
+        <div class="row col-12 top-logo">
+          <img
+            src="/asset/logo.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt="my tag"
+          />
+        </div>
+        <div class="row top-btn">
+          <div class="text-center">
+            <a
+              class="btn btn-danger"
+              href="#about"
+              role="button"
+              data-text="this.info"
+              ><h2 data-text="this.info">this.info</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <!---about-->
+      <div class="container-fluid">
+        <div class="container-fluid padding" id="about">
+          <div class="row padding">
+            <div class="col-lg-12">
+              <h2 class="display-6 text-sm-center">About Me</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quaerat optio omnis consequuntur, veritatis iste quia quibusdam
+                aliquid aperiam id odio iusto, dolore suscipit nam nobis ut
+                exercitationem, ullam culpa. Impedit necessitatibus odio
+                possimus sunt sit aliquid. Reiciendis cumque explicabo quasi
+                esse nulla sunt enim temporibus, itaque laudantium quod s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row padding">
+          <div class="col-md-4 skills-icon">
+            <div class="center">
+              <div class="circle1"></div>
+              <div class="circle2-html"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skills-icon">
+            <div class="center">
+              <div class="circle1"></div>
+              <div class="circle2-css"></div>
+            </div>
+          </div>
+          <div class="col-md-4 skills-icon">
+            <div class="center">
+              <div class="circle1"></div>
+              <div class="circle2-js"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---about-->
+    <div><hr class="my-4" /></div>
 
-<body>
-	<header id="top">
-		<div class="container">
-			<div class="row">
-				<div class="text-center">
-					<div>
-						<h2 data-text="fuckingbroken">hello</h2>
-					</div>
-					<!-- <a class="btn btn-dark" href="#about" role="button">this.info </a> -->
-				</div>
-			</div>
-		</div>
-		<div>
-			<h2 data-text="fuckingbroken">hello</h2>
-		</div>
-	</header>
+    <!--newprofo-->
+    <section id="project">
+      <div class="container py-5">
+        <div class="p-5 bg-white rounded shadow mb-5">
+          <ul
+            id="myTab"
+            role="tablist"
+            class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav"
+          >
+            <li class="nav-item flex-sm-fill">
+              <a
+                id="home-tab"
+                data-toggle="tab"
+                href="#project-1"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                class="nav-link border-0 text-uppercase font-weight-bold active"
+                >Project 1</a
+              >
+            </li>
+            <li class="nav-item flex-sm-fill">
+              <a
+                id="profile-tab"
+                data-toggle="tab"
+                href="#project-2"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                class="nav-link border-0 text-uppercase font-weight-bold"
+                >Project 2</a
+              >
+            </li>
+            <li class="nav-item flex-sm-fill">
+              <a
+                id="contact-tab"
+                data-toggle="tab"
+                href="#project-3"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+                class="nav-link border-0 text-uppercase font-weight-bold"
+                >project 3</a
+              >
+            </li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <!-- project 1 -->
+            <div
+              id="project-1"
+              role="tabpanel"
+              aria-labelledby="project-1-tab"
+              class="tab-pane fade px-4 py-5 show active"
+            >
+              <div class="row padding">
+                <div class="col-md-6">
+                  <div class="projest-img text-center">
+                    <img
+                      src="/asset/project.png"
+                      class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                      alt="Project 1"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="project-text">
+                    <p class="text-muted">987654</p>
+                    <p class="text-muted mb-0">345678</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- project 1 -->
+            <!-- project 2 -->
+            <div
+              id="project-2"
+              role="tabpanel"
+              aria-labelledby="project-2-tab"
+              class="tab-pane fade px-4 py-5"
+            >
+              <div class="row padding">
+                <div class="col-md-6">
+                  <div class="projest-img text-center">
+                    <img
+                      src="/asset/project.png"
+                      class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                      alt="Project 1"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="project-text">
+                    <p class="text-muted">#######</p>
+                    <p class="text-muted mb-0">########</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- project 2 -->
+            <!-- project 3 -->
+            <div
+              id="project-3"
+              role="tabpanel"
+              aria-labelledby="project-3-tab"
+              class="tab-pane fade px-4 py-5"
+            >
+              <div class="row padding">
+                <div class="col-md-6">
+                  <div class="projest-img text-center">
+                    <img
+                      src="/asset/project.png"
+                      class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                      alt="Project 1"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="project-text">
+                    <p class="text-muted">asdfgh</p>
+                    <p class="text-muted mb-0">qwerty</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- project 3 -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<div>
-		<h2 data-text="fuckingbroken">hello</h2>
-	</div>
+    <!--newprofo-->
 
+    <div><hr class="my-4" /></div>
 
+    <!--contact-->
+    <section>
+      <div class="container-fluid padding" id="contact">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2>Contact</h2>
+          </div>
+          <div class="col-12 social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact-->
 
+    <!--footer-->
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <p>Visit Me</p>
+            <hr class="light" />
+            <p>CoCoon Ignite Ventures</p>
+            <a
+              href="https://www.google.com/maps/place/CoCoon+Ignite+Ventures/@22.2860785,114.190358,15z/data=!4m5!3m4!1s0x0:0xa5da560274bd706c!8m2!3d22.2860785!4d114.190358"
+            >
+              <p>3/F, Citicorp Center, 18 Whitfield Rd</p>
+              <p>Tin Hau, Hong Kong</p>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <p>Hours</p>
+            <hr class="light" />
+            <p>Monday - Friday</p>
+            <p>9am - 6pm</p>
+            <p><i class="fab fa-whatsapp"></i>+852 1234 5678</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-		crossorigin="anonymous"></script>
-	<script src="/javascript.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/javascript.js"></script>
+  </body>
 </html>
