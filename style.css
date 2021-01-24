@@ -41,8 +41,6 @@ header .container {
 .top-logo {
   display: flex;
   justify-content: center;
-  /* height: 60vh;
-  width: 90vw; */
 }
 .top-logo img {
   height: 50vh;
@@ -254,11 +252,11 @@ header .container {
   margin: 3rem;
 }
 
-.fa-facebook {
+.fab {
   color: #fff;
 }
 
-.fa-github {
+/* .fa-github {
   color: #fff;
 }
 
@@ -267,14 +265,14 @@ header .container {
 }
 .fa-discord {
   color: #fff;
-}
-
+} */
+/* 
 .fa-facebook:hover,
 .fa-github:hover,
 .fa-linkedin:hover,
 .fa-discord:hover {
   color: #fdd7a8;
-}
+}  */
 
 /* [class*="col-"] {
   padding: 1rem;

@@ -1,63 +1,38 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: url(/asset/sunset.jpg);
-  background-size: cover;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+/* tabs */
+.nav {
+  background-color: #1f1c13;
 }
-/* .box {
-  width: 400px;
-  height: 40vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+/* .active {
+  background-color: #fdd7a8 !important;
+}
+.show {
+  background-color: #4c473b !important;
 } */
-.box {
-  /* position: relative;
-  top: 50%;
-  left: 50%; */
-
-  width: 400px;
-  height: 40vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+.nav-item a {
+  color: #fdd7a8;
+}
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
 }
 
-/* .box h3 {
-  margin: 0 0 30px;
-  padding: 0;
-  text-align: center;
-} */
-/* .box .inputbox {
-  position: relative;
-} */
-/* .box .inputbox input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-} */
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+/* tabs */
+#project {
+  background-color: #1f1c13;
+}
 
-/* .box .inputbox lable {
-  position: absolute;
-  top: 0;
-  left: 0;} */
+#my-project {
+  background-color: #4c473b;
+  /* border-radius: 0px; */
+}
+/* .project-img {
+  background-color: #4c473b;
+} */
+/* profile */
+/* contact */
