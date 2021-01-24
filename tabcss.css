@@ -1,13 +1,63 @@
-/* Rounded tabs */
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/asset/sunset.jpg);
+  background-size: cover;
 
-@media (min-width: 576px) {
-  .rounded-nav {
-    border-radius: 50rem !important;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* .box {
+  width: 400px;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+} */
+.box {
+  /* position: relative;
+  top: 50%;
+  left: 50%; */
+
+  width: 400px;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-@media (min-width: 576px) {
-  .rounded-nav .nav-link {
-    border-radius: 50rem !important;
-  }
-}
+/* .box h3 {
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+} */
+/* .box .inputbox {
+  position: relative;
+} */
+/* .box .inputbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+} */
+
+/* .box .inputbox lable {
+  position: absolute;
+  top: 0;
+  left: 0;} */
