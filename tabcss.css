@@ -1,38 +1,11 @@
-/* tabs */
-.nav {
-  background-color: #1f1c13;
-}
-/* .active {
-  background-color: #fdd7a8 !important;
-}
-.show {
-  background-color: #4c473b !important;
-} */
-.nav-item a {
-  color: #fdd7a8;
-}
-@media (min-width: 576px) {
-  .rounded-nav {
-    border-radius: 50rem !important;
-  }
+#hello:before {
+	display: block;
+	content: " ";
+	margin-top: -50px;
+	height: 50px;
+	visibility: hidden;
 }
 
-@media (min-width: 576px) {
-  .rounded-nav .nav-link {
-    border-radius: 50rem !important;
-  }
+.nothing {
+	height: 500px;
 }
-/* tabs */
-#project {
-  background-color: #1f1c13;
-}
-
-#my-project {
-  background-color: #4c473b;
-  /* border-radius: 0px; */
-}
-/* .project-img {
-  background-color: #4c473b;
-} */
-/* profile */
-/* contact */
