@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	text-justify: auto;
 }
 body {
 	color: #fff;
@@ -279,9 +280,6 @@ header .container {
 /* contact */
 /* form */
 footer {
-	/* background-color: red; */
-	/* background: url(/asset/sunset.jpg);
-  background-size: cover; */
 	background-color: #1f1c13;
 	margin: 0;
 	display: flex;

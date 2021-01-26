@@ -11,9 +11,6 @@ for (let fab of contactIcons) {
 		// fab.css("color", "white");
 		this.style.color = "#fff";
 	});
-	fab.addEventListener("click", function () {
-		alert("HAHA i didnt link anyhting dont be nosey");
-	});
 }
 // $(".fab").click(function () {
 // 	$(this).css("color", "red");
