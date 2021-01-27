@@ -107,6 +107,10 @@ header .container {
 	padding-bottom: 3%;
 	padding-top: 3%;
 }
+#about p {
+	font-size: 20px;
+}
+
 .skills-icon {
 	display: flex;
 	flex-wrap: wrap;
